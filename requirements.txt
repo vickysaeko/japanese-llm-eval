@@ -1,0 +1,4 @@
+# 依存関係は最小限にしています。標準ライブラリだけで動きます。
+# requests は実モデルAPI（Claude / OpenAI / Gemini）を呼ぶときにだけ使います。
+# Mockのみで使う場合は requests がなくても動きます。
+requests>=2.31
